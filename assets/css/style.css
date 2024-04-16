@@ -20,8 +20,13 @@ body {
 
 header {
     background-color: lightcoral;
-    font-size: 54px;
+    
 }
+
+ h1 {
+    font-family: 'Oswald', sans-serif;
+ } 
+
 
 main {
     background-color: cadetblue;
