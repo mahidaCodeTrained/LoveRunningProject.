@@ -4,13 +4,14 @@
 /* Asterisk wildcard selector used to override existing styles added by the browser */
 * {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 /*General Styles */
 body {
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
 
     /* Generic Project Styles */
@@ -24,10 +25,10 @@ header {
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 2px #3a3a3a;
-    width:100%;
-    display:flex;
-    justify-content: space-between;  
-    align-items: baseline;  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 
@@ -41,16 +42,16 @@ nav {
     position: absolute;
     background-color: #FFFFFF;
     width: 100%;
-    left:0;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top:100%
+    top: 100%
 }
 
 /* Nav Toggle */
 #nav-toggle:checked~nav {
-display: block;
+    display: block;
 }
 
 #nav-toggle {
@@ -61,12 +62,12 @@ display: block;
     font-size: 2rem;
 }
 
- h1 {
+h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#252525
- } 
+    color: #252525
+}
 
 
 main {
@@ -85,8 +86,8 @@ footer {
     list-style-type: none;
 }
 
-#menu > li {
- margin-bottom: 1em;
+#menu>li {
+    margin-bottom: 1em;
 }
 
 .active {
@@ -95,6 +96,7 @@ footer {
 
 /* Media Query: For tablet size and larger (768px) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -106,10 +108,10 @@ footer {
 
     #menu {
         display: flex;
-        
+
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -131,7 +133,7 @@ footer {
 
 /* Media Query for screen sizes (992px or larger) */
 @media screen and (min-width: 992px) {
-    
+
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
