@@ -168,6 +168,11 @@ main {
     main {
         margin-top: 79px;
     }
+/* Hero */
+    #cover-text {
+        width: 30%;
+        right: 50px;
+    }
 }
 
 /* Media Query for screen sizes (992px or larger) */
